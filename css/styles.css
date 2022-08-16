@@ -9,12 +9,18 @@ body, html {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 8fr;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 6fr;
     grid-template-areas: 
     "sidebar header"
     "sidebar main-content";
 }
+
+/* 
+
+<--------------- Header --------------->
+
+*/
 
 .header {
     grid-area: header;
@@ -28,7 +34,7 @@ body, html {
 
 .header-search {
     display: grid;
-    grid-template-columns: 24px auto;
+    grid-template-columns: min-content auto;
     gap: 0 10px;
 }
 
@@ -50,6 +56,12 @@ body, html {
     gap: 0 20px;
 }
 
+/* 
+
+<--------------- Sidebar --------------->
+
+*/
+
 .sidebar {
     grid-area: sidebar;
 }
@@ -66,6 +78,28 @@ body, html {
     gap: 20px 0;
 }
 
+/* 
+
+<--------------- Main Content --------------->
+
+*/
+
 .main-content {
     grid-area: main-content;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.main-projects {
+    display: grid;
+    grid-auto-rows: minmax(200px, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.main-announcements {
+    margin-right: 50px;
 }
