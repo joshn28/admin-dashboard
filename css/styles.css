@@ -3,6 +3,10 @@ body, html {
     margin: 0;
 }
 
+:root {
+
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -48,6 +52,18 @@ body, html {
 
 .sidebar {
     grid-area: sidebar;
+}
+
+.sidebar > span {
+    padding-left: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 20px;
+    display: grid;
+    margin: 50px 0;
+    gap: 20px 0;
 }
 
 .main-content {
