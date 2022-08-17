@@ -200,7 +200,6 @@ hr {
 .main-content {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    grid-template-rows: repeat(auto-fit, 1fr);
     background-color: var(--secondary-color);
     overflow-y: auto;
 }
