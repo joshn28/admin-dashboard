@@ -267,7 +267,7 @@ hr {
 .main-content-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .main-sidebar > div > p:first-of-type,
