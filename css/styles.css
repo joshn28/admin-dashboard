@@ -215,6 +215,7 @@ hr {
     align-content: space-around;
     gap: var(--projects-gap);
     margin: 0 var(--projects-gap);
+    flex: 1;
 }
 
 .main-content-left,
@@ -267,7 +268,7 @@ hr {
 .main-content-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .main-sidebar > div > p:first-of-type,
