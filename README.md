@@ -8,3 +8,5 @@ The skills I've demonstrated are:
 
 - HTML
 - CSS
+
+Icons by [Freepik](https://www.flaticon.com/authors/freepik).
